@@ -1,0 +1,60 @@
+html {
+    background: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+}
+body {
+    background-color: rgb(114, 114, 114);
+    min-height: 100%;   
+    margin: 0px auto;
+    min-width: 600px;
+    max-width: 1024px;   
+    width: 100%; 
+    display: flex;
+    flex-flow: row wrap;   
+}
+#display-img-fluid{
+    width: 100%;
+    min-width: 600px;
+    width: 1024px;
+    position: absolute;
+}
+.img-fluid {
+    position: absolute;
+
+}
+#round {
+    position: relative;
+    font-size: 35px;
+    padding: 10px;
+}
+#choice1 {
+    left: 25%;
+    top: 50%;
+}
+#choice2 {
+    left: 61%;
+    top: 50%;
+}
+#answer {
+    left: 38.5%;
+    top: 36%;
+    width: 400px;
+}
+#eyeBalls {
+    left: 45.6%;
+    top: 12%;
+    width: 150px;
+}
+#check {
+    left: 40%;
+    top: 15%;
+}
+#gameOver {
+    left: 30%;
+    width: 40%;
+}
+#playAgain {
+    left: 36.5%;
+    top: 30%;
+}
